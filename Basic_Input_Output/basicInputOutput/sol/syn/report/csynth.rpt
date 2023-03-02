@@ -1,0 +1,80 @@
+
+
+================================================================
+== Synthesis Summary Report of 'basicInputOutput'
+================================================================
++ General Information: 
+    * Date:           Sun Feb 26 09:27:30 2023
+    * Version:        2022.2 (Build 3670227 on Oct 13 2022)
+    * Project:        basicInputOutput
+    * Solution:       sol (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg400-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +--------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----+-----+
+    |       Modules      | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |    |   |    |     |
+    |       & Loops      | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP| FF| LUT| URAM|
+    +--------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----+-----+
+    |+ basicInputOutput  |     -|  7.30|        0|   0.000|         -|        1|     -|        no|     -|   -|  -|   -|    -|
+    +--------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* Other Ports
++-----------+---------+----------+
+| Interface | Mode    | Bitwidth |
++-----------+---------+----------+
+| input_r   | ap_none | 4        |
+| output_r  | ap_none | 4        |
++-----------+---------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+------------+
+| Argument | Direction | Datatype   |
++----------+-----------+------------+
+| input    | in        | ap_int<4>  |
+| output   | out       | ap_int<4>* |
++----------+-----------+------------+
+
+* SW-to-HW Mapping
++----------+--------------+---------+
+| Argument | HW Interface | HW Type |
++----------+--------------+---------+
+| input    | input_r      | port    |
+| output   | output_r     | port    |
++----------+--------------+---------+
+
+
+================================================================
+== Bind Op Report
+================================================================
+  No bind op info in design
+
+================================================================
+== Bind Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+----------------------------+-------------------------------------------------------------+
+| Type      | Options                    | Location                                                    |
++-----------+----------------------------+-------------------------------------------------------------+
+| interface | ap_none port = input       | basicInputOutput/basicInputOutput.cpp:5 in basicinputoutput |
+| interface | ap_none port = output      | basicInputOutput/basicInputOutput.cpp:6 in basicinputoutput |
+| interface | ap_ctrl_none port = return | basicInputOutput/basicInputOutput.cpp:7 in basicinputoutput |
++-----------+----------------------------+-------------------------------------------------------------+
+
+
