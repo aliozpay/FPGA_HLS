@@ -1,0 +1,49 @@
+---
+MainSourceFile:  'D:/FPGA_HLS/Basic_Output/Vitis_HLS/Basic_Output/sol1/.autopilot/db/basic_output.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1211_1:  '
+    FileOffset:      1211
+    FilePath:        'D:\Vitis_HLS\2022.2\common\technology\autopilot\ap_int_base.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA_HLS\Basic_Output\Vitis_HLS\Basic_Output\sol1\.autopilot\db\basic_output.pp.0.cpp'
+        Offset:          51515
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1211_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'D:\Vitis_HLS\2022.2\common\technology\autopilot\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA_HLS\Basic_Output\Vitis_HLS\Basic_Output\sol1\.autopilot\db\basic_output.pp.0.cpp'
+        Offset:          258335
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        'D:\Vitis_HLS\2022.2\common\technology\autopilot\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA_HLS\Basic_Output\Vitis_HLS\Basic_Output\sol1\.autopilot\db\basic_output.pp.0.cpp'
+        Offset:          258774
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        'D:\Vitis_HLS\2022.2\common\technology\autopilot\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA_HLS\Basic_Output\Vitis_HLS\Basic_Output\sol1\.autopilot\db\basic_output.pp.0.cpp'
+        Offset:          259214
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1245_1:  '
+    FileOffset:      1245
+    FilePath:        'D:\Vitis_HLS\2022.2\common\technology\autopilot\ap_fixed_base.h'
+    Replacements:    
+      - FilePath:        'D:\FPGA_HLS\Basic_Output\Vitis_HLS\Basic_Output\sol1\.autopilot\db\basic_output.pp.0.cpp'
+        Offset:          520694
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1245_1: '
+...

@@ -1,0 +1,43 @@
+INFO: [HLS 200-10] Running 'D:/Vitis_HLS/2022.2/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'alica' on host 'desktop-bp5jujq' (Windows NT_amd64 version 6.2) on Sat Feb 25 13:32:31 +0300 2023
+INFO: [HLS 200-10] In directory 'D:/FPGA_HLS/Basic_Output/Vitis_HLS'
+Sourcing Tcl script 'D:/FPGA_HLS/Basic_Output/Vitis_HLS/Basic_Output/sol1/export.tcl'
+INFO: [HLS 200-1510] Running: source D:/FPGA_HLS/Basic_Output/Vitis_HLS/Basic_Output/sol1/export.tcl
+INFO: [HLS 200-1510] Running: open_project Basic_Output 
+INFO: [HLS 200-10] Opening project 'D:/FPGA_HLS/Basic_Output/Vitis_HLS/Basic_Output'.
+INFO: [HLS 200-1510] Running: set_top basic_output 
+INFO: [HLS 200-1510] Running: add_files Basic_Output/basic_output.cpp 
+INFO: [HLS 200-10] Adding design file 'Basic_Output/basic_output.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution sol1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'D:/FPGA_HLS/Basic_Output/Vitis_HLS/Basic_Output/sol1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1464] Running solution command: config_export -display_name=without_interface
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -output=D:/FPGA_HLS/Basic_Output/Lib
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -display_name without_interface -format ip_catalog -output D:/FPGA_HLS/Basic_Output/Lib -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./Basic_Output/sol1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name basic_output basic_output 
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog -output D:/FPGA_HLS/Basic_Output/Lib 
+Running Dispatch Server on port: 60505
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+ipx::create_core: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 398.594 ; gain = 74.824
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2022.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Sat Feb 25 13:32:55 2023...
+INFO: [HLS 200-802] Generated output file D:/FPGA_HLS/Basic_Output/Lib/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 11.816 seconds; current allocated memory: 6.852 MB.
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 0 seconds. Total elapsed time: 23.931 seconds; peak allocated memory: 113.078 MB.

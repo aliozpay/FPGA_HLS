@@ -1,0 +1,30 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'D:/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                   Line: 214, Column: 67 }
+Function:        _ZN11ap_int_baseILi3ELb1EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          _ZN8ssdm_intILi3ELb1EEC2EDq3_i
+    DebugLoc:        { File: 'D:/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h', 
+                       Line: 515, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int_base<3, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'D:/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+Function:        _ZN6ap_intILi3EEC2Ei
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'ap_int_base<3, true>::ap_int_base(int)'
+    DebugLoc:        { File: 'D:/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h', 
+                       Line: 214, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'ap_int<3>::ap_int(int)'
+  - String:          ''''
+...

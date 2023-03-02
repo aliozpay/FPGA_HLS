@@ -1,0 +1,1 @@
+--incr --debug typical --relax --mt auto  -L xil_defaultlib -L secureip -L xpm --snapshot basicOutput xil_defaultlib.basicOutput -log elaborate.log

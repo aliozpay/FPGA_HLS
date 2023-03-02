@@ -1,0 +1,3 @@
+basic_output.vhd,vhdl,xil_defaultlib,../../../../basicOutput_HW.gen/sources_1/bd/basicOutput/ipshared/ec73/hdl/vhdl/basic_output.vhd,
+basicOutput_basic_output_0_0.vhd,vhdl,xil_defaultlib,../../../bd/basicOutput/ip/basicOutput_basic_output_0_0/sim/basicOutput_basic_output_0_0.vhd,
+basicOutput.vhd,vhdl,xil_defaultlib,../../../bd/basicOutput/sim/basicOutput.vhd,

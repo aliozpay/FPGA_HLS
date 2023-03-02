@@ -1,0 +1,35 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "basic_output",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "D:\/FPGA_HLS\/Basic_Output\/Vitis_HLS\/Basic_Output\/sol1\/directives.tcl",
+          "sourceLine": "6",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "basic_output"
+              }]
+          }
+        },
+        {
+          "functionName": "basic_output",
+          "label": "",
+          "functionLabel": "",
+          "id": "2",
+          "sourceFile": "D:\/FPGA_HLS\/Basic_Output\/Vitis_HLS\/Basic_Output\/sol1\/csynth.tcl",
+          "sourceLine": "14",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "basic_output"
+              }]
+          }
+        }
+      ]
+    }]}

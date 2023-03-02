@@ -1,0 +1,2 @@
+remark: D:/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h:214:67: Inlining function '_ZN8ssdm_intILi3ELb1EEC2EDq3_i' into 'ap_int_base<3, true>::ap_int_base(int)'
+remark: <unknown>:0:0: Inlining function 'ap_int_base<3, true>::ap_int_base(int)' into 'ap_int<3>::ap_int(int)'

@@ -1,0 +1,6 @@
+<pragmas>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int<3>::ap_int(int)" off="0" region="0" recursive="0"/>
+<pragma file="D:/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" line="214" pragmaType="inline" parentfunction="ap_int_base<3, true>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="D:/Vitis_HLS/2022.2/common/technology/autopilot\ap_common.h" line="515" pragmaType="inline" parentfunction="_ZN8ssdm_intILi3ELb1EEC2EDq3_i" off="0" region="0" recursive="0"/>
+<pragma file="D:/Vitis_HLS/2022.2/common/technology/autopilot\ap_int_base.h" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+</pragmas>
