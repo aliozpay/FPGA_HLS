@@ -1,0 +1,25 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-857,-804",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_R_INPUT -pg 1 -lvl 0 -x -30 -y -330 -defaultsOSRD
+preplace port port-id_L_INPUT -pg 1 -lvl 0 -x -30 -y -310 -defaultsOSRD
+preplace port port-id_U_INPUT -pg 1 -lvl 0 -x -30 -y -280 -defaultsOSRD
+preplace port port-id_D_INPUT -pg 1 -lvl 0 -x -30 -y -250 -defaultsOSRD
+preplace port port-id_EW -pg 1 -lvl 2 -x 250 -y -310 -defaultsOSRD
+preplace port port-id_NS -pg 1 -lvl 2 -x 250 -y -270 -defaultsOSRD
+preplace inst traficLights_0 -pg 1 -lvl 1 -x 110 -y -290 -defaultsOSRD -resize 194 168
+preplace netloc R_0_1 1 0 1 N -330
+preplace netloc L_0_1 1 0 1 N -310
+preplace netloc U_0_1 1 0 1 N -280
+preplace netloc D_0_1 1 0 1 N -250
+preplace netloc traficLights_0_NS 1 1 1 N -310
+preplace netloc traficLights_0_EW 1 1 1 N -270
+levelinfo -pg 1 -30 110 250
+pagesize -pg 1 -db -bbox -sgen -140 -390 330 180
+"
+}
+

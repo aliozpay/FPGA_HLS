@@ -1,0 +1,10 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../traficLights.cpp in debug mode
+   Generating csim.exe
+Error at  L = 0 R = 0 U = 0 D = 1 NS_Algo = 1 NS_TB = 0 EW_Algo = 0 EW_TB = 1
+Error at  L = 0 R = 0 U = 1 D = 0 NS_Algo = 1 NS_TB = 0 EW_Algo = 0 EW_TB = 1
+Error at  L = 0 R = 0 U = 1 D = 1 NS_Algo = 1 NS_TB = 0 EW_Algo = 0 EW_TB = 0
+Test failed
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

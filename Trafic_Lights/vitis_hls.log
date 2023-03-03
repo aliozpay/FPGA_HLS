@@ -1,0 +1,42 @@
+INFO: [HLS 200-10] Running 'D:/Vitis_HLS/2022.2/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'alica' on host 'desktop-bp5jujq' (Windows NT_amd64 version 6.2) on Mon Feb 27 21:07:26 +0300 2023
+INFO: [HLS 200-10] In directory 'D:/FPGA_HLS/Trafic_Lights'
+Sourcing Tcl script 'D:/FPGA_HLS/Trafic_Lights/Trafic_Lights/sol1/csim.tcl'
+INFO: [HLS 200-1510] Running: source D:/FPGA_HLS/Trafic_Lights/Trafic_Lights/sol1/csim.tcl
+INFO: [HLS 200-1510] Running: open_project Trafic_Lights 
+INFO: [HLS 200-10] Opening project 'D:/FPGA_HLS/Trafic_Lights/Trafic_Lights'.
+INFO: [HLS 200-1510] Running: set_top traficLights 
+INFO: [HLS 200-1510] Running: add_files Trafic_Lights/traficLights.cpp 
+INFO: [HLS 200-10] Adding design file 'Trafic_Lights/traficLights.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb Trafic_Lights/traficLights_tb.cpp 
+INFO: [HLS 200-10] Adding test bench file 'Trafic_Lights/traficLights_tb.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb Trafic_Lights/traficLights_tb.h 
+INFO: [HLS 200-10] Adding test bench file 'Trafic_Lights/traficLights_tb.h' to the project
+INFO: [HLS 200-1510] Running: open_solution sol1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'D:/FPGA_HLS/Trafic_Lights/Trafic_Lights/sol1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1464] Running solution command: config_export -output=D:/FPGA_HLS/Trafic_Lights/Lib
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -output D:/FPGA_HLS/Trafic_Lights/Lib -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./Trafic_Lights/sol1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name traficLights traficLights 
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+Running Dispatch Server on port: 50750
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../traficLights.cpp in debug mode
+   Generating csim.exe
+Error at  L = 0 R = 0 U = 0 D = 1 NS_Algo = 1 NS_TB = 0 EW_Algo = 0 EW_TB = 1
+Error at  L = 0 R = 0 U = 1 D = 0 NS_Algo = 1 NS_TB = 0 EW_Algo = 0 EW_TB = 1
+Error at  L = 0 R = 0 U = 1 D = 1 NS_Algo = 1 NS_TB = 0 EW_Algo = 0 EW_TB = 0
+Test failed
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.973 seconds; current allocated memory: 0.316 MB.
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 1 seconds. Total elapsed time: 12.935 seconds; peak allocated memory: 105.375 MB.

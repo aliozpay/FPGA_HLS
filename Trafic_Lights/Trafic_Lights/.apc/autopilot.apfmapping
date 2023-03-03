@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="traficLights.cpp" path="D:\FPGA_HLS\Trafic_Lights\Trafic_Lights\traficLights.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="traficLights_tb.h" path="D:\FPGA_HLS\Trafic_Lights\Trafic_Lights\traficLights_tb.h"/>
+    <originFiles name="traficLights_tb.cpp" path="D:\FPGA_HLS\Trafic_Lights\Trafic_Lights\traficLights_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <csimLog>
+        <logs message="Error at  L = 0 R = 0 U = 1 D = 1 NS_Algo = 1 NS_TB = 0 EW_Algo = 0 EW_TB = 0&#xD;&#xA;Test failed" projectName="Trafic_Lights" solutionName="sol1" date="2023-02-27T21:07:39.401+0300"/>
+        <logs message="Error at  L = 0 R = 0 U = 1 D = 0 NS_Algo = 1 NS_TB = 0 EW_Algo = 0 EW_TB = 1" projectName="Trafic_Lights" solutionName="sol1" date="2023-02-27T21:07:39.386+0300"/>
+        <logs message="Error at  L = 0 R = 0 U = 0 D = 1 NS_Algo = 1 NS_TB = 0 EW_Algo = 0 EW_TB = 1" projectName="Trafic_Lights" solutionName="sol1" date="2023-02-27T21:07:39.386+0300"/>
+        <logs message="Error at  L = 0 R = 0 U = 1 D = 1 NS_Algo = 1 NS_TB = 0 EW_Algo = 1 EW_TB = 0&#xD;&#xA;Test failed" projectName="Trafic_Lights" solutionName="sol1" date="2023-02-27T21:03:30.092+0300"/>
+        <logs message="Error at  L = 0 R = 0 U = 1 D = 0 NS_Algo = 1 NS_TB = 0 EW_Algo = 1 EW_TB = 1" projectName="Trafic_Lights" solutionName="sol1" date="2023-02-27T21:03:30.077+0300"/>
+        <logs message="Error at  L = 0 R = 0 U = 0 D = 1 NS_Algo = 1 NS_TB = 0 EW_Algo = 1 EW_TB = 1" projectName="Trafic_Lights" solutionName="sol1" date="2023-02-27T21:03:30.061+0300"/>
+        <logs message="Error at  L = 0 R = 0 U = 0 D = 0 NS_Algo = 0 NS_TB = 0 EW_Algo = 0 EW_TB = 1" projectName="Trafic_Lights" solutionName="sol1" date="2023-02-27T21:03:30.045+0300"/>
+        <logs message="Error at  L = 0 R = 0 U = 1 D = 1 NS_Algo = 1 NS_TB = 0 EW_Algo = 1 EW_TB = 0&#xD;&#xA;Test failed" projectName="Trafic_Lights" solutionName="sol1" date="2023-02-27T20:57:04.998+0300"/>
+        <logs message="Error at  L = 0 R = 0 U = 1 D = 0 NS_Algo = 1 NS_TB = 0 EW_Algo = 1 EW_TB = 1" projectName="Trafic_Lights" solutionName="sol1" date="2023-02-27T20:57:04.983+0300"/>
+        <logs message="Error at  L = 0 R = 0 U = 0 D = 1 NS_Algo = 1 NS_TB = 0 EW_Algo = 1 EW_TB = 1" projectName="Trafic_Lights" solutionName="sol1" date="2023-02-27T20:57:04.983+0300"/>
+        <logs message="Error at  L = 0 R = 0 U = 0 D = 0 NS_Algo = 0 NS_TB = 0 EW_Algo = 0 EW_TB = 1" projectName="Trafic_Lights" solutionName="sol1" date="2023-02-27T20:57:04.967+0300"/>
+        <logs message="Error at  L = 0 R = 0 U = 1 D = 1 NS_Algo = 1 NS_TB = 0 EW_Algo = 1 EW_TB = 0&#xD;&#xA;Test failed" projectName="Trafic_Lights" solutionName="sol1" date="2023-02-27T20:49:01.880+0300"/>
+        <logs message="Error at  L = 0 R = 0 U = 1 D = 0 NS_Algo = 1 NS_TB = 0 EW_Algo = 1 EW_TB = 1" projectName="Trafic_Lights" solutionName="sol1" date="2023-02-27T20:49:01.864+0300"/>
+        <logs message="Error at  L = 0 R = 0 U = 0 D = 1 NS_Algo = 1 NS_TB = 0 EW_Algo = 1 EW_TB = 1" projectName="Trafic_Lights" solutionName="sol1" date="2023-02-27T20:49:01.864+0300"/>
+        <logs message="Error at  L = 0 R = 0 U = 0 D = 0 NS_Algo = 0 NS_TB = 0 EW_Algo = 0 EW_TB = 1" projectName="Trafic_Lights" solutionName="sol1" date="2023-02-27T20:49:01.849+0300"/>
+        <logs message="Error at  l_sensor = 0 r_sensor = 0 u_sensor = 1 d_sensor = 1 ns_light_hw = 1 ns_light_sw = 0 ew_light_hw = 1 ew_light_sw = 0&#xD;&#xA;Test failed" projectName="Trafic_Lights" solutionName="sol1" date="2023-02-27T20:47:48.355+0300"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

@@ -1,0 +1,5 @@
+remark: Trafic_Lights/traficLights.cpp:69:0: Inlining function 'rule1(bool, bool)' into 'traficLights(bool, bool, bool, bool, bool*, bool*)'
+remark: Trafic_Lights/traficLights.cpp:69:0: Inlining function 'rule2(bool, bool, bool, bool)' into 'traficLights(bool, bool, bool, bool, bool*, bool*)'
+remark: Trafic_Lights/traficLights.cpp:69:0: Inlining function 'rule5(bool, bool, bool, bool)' into 'traficLights(bool, bool, bool, bool, bool*, bool*)'
+remark: Trafic_Lights/traficLights.cpp:69:0: Inlining function 'rule3(bool, bool, bool, bool)' into 'traficLights(bool, bool, bool, bool, bool*, bool*)'
+remark: Trafic_Lights/traficLights.cpp:69:0: Inlining function 'rule4(bool, bool, bool, bool)' into 'traficLights(bool, bool, bool, bool, bool*, bool*)'

@@ -1,0 +1,215 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Feb 26 18:11:48 2023
+# Process ID: 9520
+# Current directory: D:/FPGA_HLS/Trafic_Lights/Vivado/traficLights.runs/traficLight_traficLights_0_0_synth_1
+# Command line: vivado.exe -log traficLight_traficLights_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source traficLight_traficLights_0_0.tcl
+# Log file: D:/FPGA_HLS/Trafic_Lights/Vivado/traficLights.runs/traficLight_traficLights_0_0_synth_1/traficLight_traficLights_0_0.vds
+# Journal file: D:/FPGA_HLS/Trafic_Lights/Vivado/traficLights.runs/traficLight_traficLights_0_0_synth_1\vivado.jou
+# Running On: DESKTOP-BP5JUJQ, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 17030 MB
+#-----------------------------------------------------------
+source traficLight_traficLights_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FPGA_HLS/Trafic_Lights/Lib'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: traficLight_traficLights_0_0
+Command: synth_design -top traficLight_traficLights_0_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1836
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1245.055 ; gain = 408.426
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'traficLight_traficLights_0_0' [d:/FPGA_HLS/Trafic_Lights/Vivado/traficLights.gen/sources_1/bd/traficLight/ip/traficLight_traficLights_0_0/synth/traficLight_traficLights_0_0.vhd:67]
+INFO: [Synth 8-3491] module 'traficLights' declared at 'd:/FPGA_HLS/Trafic_Lights/Vivado/traficLights.gen/sources_1/bd/traficLight/ipshared/62f5/hdl/vhdl/traficLights.vhd:12' bound to instance 'U0' of component 'traficLights' [d:/FPGA_HLS/Trafic_Lights/Vivado/traficLights.gen/sources_1/bd/traficLight/ip/traficLight_traficLights_0_0/synth/traficLight_traficLights_0_0.vhd:109]
+INFO: [Synth 8-638] synthesizing module 'traficLights' [d:/FPGA_HLS/Trafic_Lights/Vivado/traficLights.gen/sources_1/bd/traficLight/ipshared/62f5/hdl/vhdl/traficLights.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'traficLights' (0#1) [d:/FPGA_HLS/Trafic_Lights/Vivado/traficLights.gen/sources_1/bd/traficLight/ipshared/62f5/hdl/vhdl/traficLights.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'traficLight_traficLights_0_0' (0#1) [d:/FPGA_HLS/Trafic_Lights/Vivado/traficLights.gen/sources_1/bd/traficLight/ip/traficLight_traficLights_0_0/synth/traficLight_traficLights_0_0.vhd:67]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1334.262 ; gain = 497.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1334.262 ; gain = 497.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1334.262 ; gain = 497.633
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1334.262 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/FPGA_HLS/Trafic_Lights/Vivado/traficLights.gen/sources_1/bd/traficLight/ip/traficLight_traficLights_0_0/constraints/traficLights_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/FPGA_HLS/Trafic_Lights/Vivado/traficLights.gen/sources_1/bd/traficLight/ip/traficLight_traficLights_0_0/constraints/traficLights_ooc.xdc] for cell 'U0'
+Parsing XDC File [D:/FPGA_HLS/Trafic_Lights/Vivado/traficLights.runs/traficLight_traficLights_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/FPGA_HLS/Trafic_Lights/Vivado/traficLights.runs/traficLight_traficLights_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1343.148 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1343.148 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1343.148 ; gain = 506.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1343.148 ; gain = 506.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  D:/FPGA_HLS/Trafic_Lights/Vivado/traficLights.runs/traficLight_traficLights_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1343.148 ; gain = 506.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1343.148 ; gain = 506.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1343.148 ; gain = 506.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 1343.148 ; gain = 506.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 1343.148 ; gain = 506.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 1350.703 ; gain = 514.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1356.496 ; gain = 519.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1356.496 ; gain = 519.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1356.496 ; gain = 519.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1356.496 ; gain = 519.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1356.496 ; gain = 519.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1356.496 ; gain = 519.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT4 |     2|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1356.496 ; gain = 519.867
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:28 . Memory (MB): peak = 1356.496 ; gain = 510.980
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1356.496 ; gain = 519.867
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1368.539 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1381.074 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: fb8fa424
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:36 . Memory (MB): peak = 1381.074 ; gain = 946.863
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA_HLS/Trafic_Lights/Vivado/traficLights.runs/traficLight_traficLights_0_0_synth_1/traficLight_traficLights_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP traficLight_traficLights_0_0, cache-ID = 443e79d8b707bb95
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA_HLS/Trafic_Lights/Vivado/traficLights.runs/traficLight_traficLights_0_0_synth_1/traficLight_traficLights_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file traficLight_traficLights_0_0_utilization_synth.rpt -pb traficLight_traficLights_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 26 18:12:33 2023...

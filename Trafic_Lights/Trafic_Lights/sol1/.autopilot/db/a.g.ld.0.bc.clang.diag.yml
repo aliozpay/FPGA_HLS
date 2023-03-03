@@ -1,0 +1,80 @@
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: Trafic_Lights/traficLights.cpp, Line: 69, Column: 0 }
+Function:        _Z12traficLightsbbbbPbS_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'rule1(bool, bool)'
+    DebugLoc:        { File: Trafic_Lights/traficLights.cpp, Line: 32, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'traficLights(bool, bool, bool, bool, bool*, bool*)'
+    DebugLoc:        { File: Trafic_Lights/traficLights.cpp, Line: 69, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: Trafic_Lights/traficLights.cpp, Line: 69, Column: 0 }
+Function:        _Z12traficLightsbbbbPbS_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'rule2(bool, bool, bool, bool)'
+    DebugLoc:        { File: Trafic_Lights/traficLights.cpp, Line: 41, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'traficLights(bool, bool, bool, bool, bool*, bool*)'
+    DebugLoc:        { File: Trafic_Lights/traficLights.cpp, Line: 69, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: Trafic_Lights/traficLights.cpp, Line: 69, Column: 0 }
+Function:        _Z12traficLightsbbbbPbS_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'rule5(bool, bool, bool, bool)'
+    DebugLoc:        { File: Trafic_Lights/traficLights.cpp, Line: 64, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'traficLights(bool, bool, bool, bool, bool*, bool*)'
+    DebugLoc:        { File: Trafic_Lights/traficLights.cpp, Line: 69, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: Trafic_Lights/traficLights.cpp, Line: 69, Column: 0 }
+Function:        _Z12traficLightsbbbbPbS_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'rule3(bool, bool, bool, bool)'
+    DebugLoc:        { File: Trafic_Lights/traficLights.cpp, Line: 50, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'traficLights(bool, bool, bool, bool, bool*, bool*)'
+    DebugLoc:        { File: Trafic_Lights/traficLights.cpp, Line: 69, 
+                       Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: Trafic_Lights/traficLights.cpp, Line: 69, Column: 0 }
+Function:        _Z12traficLightsbbbbPbS_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'rule4(bool, bool, bool, bool)'
+    DebugLoc:        { File: Trafic_Lights/traficLights.cpp, Line: 57, 
+                       Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'traficLights(bool, bool, bool, bool, bool*, bool*)'
+    DebugLoc:        { File: Trafic_Lights/traficLights.cpp, Line: 69, 
+                       Column: 0 }
+  - String:          ''''
+...

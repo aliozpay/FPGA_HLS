@@ -1,0 +1,42 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="D:/FPGA_HLS/Trafic_Lights/Trafic_Lights/sol1/csynth.tcl:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="traficLights" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=traficLights" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Trafic_Lights/traficLights.cpp:71:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="traficLights" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port = R" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Trafic_Lights/traficLights.cpp:72:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="traficLights" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port = L" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Trafic_Lights/traficLights.cpp:73:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="traficLights" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port = U" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Trafic_Lights/traficLights.cpp:74:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="traficLights" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port = D" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Trafic_Lights/traficLights.cpp:75:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="traficLights" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port = NS" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Trafic_Lights/traficLights.cpp:76:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="traficLights" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port = EW" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Trafic_Lights/traficLights.cpp:77:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="traficLights" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_none port = return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Trafic_Lights/traficLights.cpp:69:0" msg_body="Inlining function 'rule1(bool, bool)' into 'traficLights(bool, bool, bool, bool, bool*, bool*)'">
+        <args Callee="rule1(bool, bool)" Caller="traficLights(bool, bool, bool, bool, bool*, bool*)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Trafic_Lights/traficLights.cpp:69:0" msg_body="Inlining function 'rule2(bool, bool, bool, bool)' into 'traficLights(bool, bool, bool, bool, bool*, bool*)'">
+        <args Callee="rule2(bool, bool, bool, bool)" Caller="traficLights(bool, bool, bool, bool, bool*, bool*)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Trafic_Lights/traficLights.cpp:69:0" msg_body="Inlining function 'rule5(bool, bool, bool, bool)' into 'traficLights(bool, bool, bool, bool, bool*, bool*)'">
+        <args Callee="rule5(bool, bool, bool, bool)" Caller="traficLights(bool, bool, bool, bool, bool*, bool*)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Trafic_Lights/traficLights.cpp:69:0" msg_body="Inlining function 'rule3(bool, bool, bool, bool)' into 'traficLights(bool, bool, bool, bool, bool*, bool*)'">
+        <args Callee="rule3(bool, bool, bool, bool)" Caller="traficLights(bool, bool, bool, bool, bool*, bool*)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Trafic_Lights/traficLights.cpp:69:0" msg_body="Inlining function 'rule4(bool, bool, bool, bool)' into 'traficLights(bool, bool, bool, bool, bool*, bool*)'">
+        <args Callee="rule4(bool, bool, bool, bool)" Caller="traficLights(bool, bool, bool, bool, bool*, bool*)"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

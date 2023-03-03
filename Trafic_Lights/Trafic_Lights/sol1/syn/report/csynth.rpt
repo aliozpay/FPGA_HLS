@@ -1,0 +1,96 @@
+
+
+================================================================
+== Synthesis Summary Report of 'traficLights'
+================================================================
++ General Information: 
+    * Date:           Sun Feb 26 17:59:36 2023
+    * Version:        2022.2 (Build 3670227 on Oct 13 2022)
+    * Project:        Trafic_Lights
+    * Solution:       sol1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg400-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +----------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+    |     Modules    | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |    |   |          |     |
+    |     & Loops    | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP| FF|    LUT   | URAM|
+    +----------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+    |+ traficLights  |     -|  4.37|        0|   0.000|         -|        1|     -|        no|     -|   -|  -|  32 (~0%)|    -|
+    +----------------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* Other Ports
++-----------+---------+----------+
+| Interface | Mode    | Bitwidth |
++-----------+---------+----------+
+| D         | ap_none | 1        |
+| EW        | ap_none | 1        |
+| L         | ap_none | 1        |
+| NS        | ap_none | 1        |
+| R         | ap_none | 1        |
+| U         | ap_none | 1        |
++-----------+---------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| R        | in        | bool     |
+| L        | in        | bool     |
+| U        | in        | bool     |
+| D        | in        | bool     |
+| NS       | out       | bool*    |
+| EW       | out       | bool*    |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+--------------+---------+
+| Argument | HW Interface | HW Type |
++----------+--------------+---------+
+| R        | R            | port    |
+| L        | L            | port    |
+| U        | U            | port    |
+| D        | D            | port    |
+| NS       | NS           | port    |
+| EW       | EW           | port    |
++----------+--------------+---------+
+
+
+================================================================
+== Bind Op Report
+================================================================
+  No bind op info in design
+
+================================================================
+== Bind Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+----------------------------+---------------------------------------------------+
+| Type      | Options                    | Location                                          |
++-----------+----------------------------+---------------------------------------------------+
+| interface | ap_none port = R           | Trafic_Lights/traficLights.cpp:71 in traficlights |
+| interface | ap_none port = L           | Trafic_Lights/traficLights.cpp:72 in traficlights |
+| interface | ap_none port = U           | Trafic_Lights/traficLights.cpp:73 in traficlights |
+| interface | ap_none port = D           | Trafic_Lights/traficLights.cpp:74 in traficlights |
+| interface | ap_none port = NS          | Trafic_Lights/traficLights.cpp:75 in traficlights |
+| interface | ap_none port = EW          | Trafic_Lights/traficLights.cpp:76 in traficlights |
+| interface | ap_ctrl_none port = return | Trafic_Lights/traficLights.cpp:77 in traficlights |
++-----------+----------------------------+---------------------------------------------------+
+
+

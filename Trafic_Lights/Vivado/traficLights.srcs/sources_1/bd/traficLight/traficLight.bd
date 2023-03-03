@@ -1,0 +1,125 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x71E74D5171E74D51",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../traficLights.gen/sources_1/bd/traficLight",
+      "name": "traficLight",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "traficLights_0": ""
+    },
+    "ports": {
+      "R_INPUT": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "L_INPUT": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "U_INPUT": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "D_INPUT": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "EW": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "NS": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "traficLights_0": {
+        "vlnv": "xilinx.com:hls:traficLights:1.0",
+        "xci_name": "traficLight_traficLights_0_0",
+        "xci_path": "ip\\traficLight_traficLights_0_0\\traficLight_traficLights_0_0.xci",
+        "inst_hier_path": "traficLights_0"
+      }
+    },
+    "nets": {
+      "D_0_1": {
+        "ports": [
+          "D_INPUT",
+          "traficLights_0/D"
+        ]
+      },
+      "L_0_1": {
+        "ports": [
+          "L_INPUT",
+          "traficLights_0/L"
+        ]
+      },
+      "R_0_1": {
+        "ports": [
+          "R_INPUT",
+          "traficLights_0/R"
+        ]
+      },
+      "U_0_1": {
+        "ports": [
+          "U_INPUT",
+          "traficLights_0/U"
+        ]
+      },
+      "traficLights_0_EW": {
+        "ports": [
+          "traficLights_0/EW",
+          "NS"
+        ]
+      },
+      "traficLights_0_NS": {
+        "ports": [
+          "traficLights_0/NS",
+          "EW"
+        ]
+      }
+    }
+  }
+}

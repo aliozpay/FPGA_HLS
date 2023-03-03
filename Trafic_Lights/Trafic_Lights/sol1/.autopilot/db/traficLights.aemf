@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1677423576420">
+  <ports id="1" name="R" type="PortType" originalName="R" coreId="1953394531" bitwidth="1">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="2" name="L" type="PortType" originalName="L" coreId="1921922608" bitwidth="1">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="3" name="U" type="PortType" originalName="U" coreId="1921922608" bitwidth="1">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="4" name="D" type="PortType" originalName="D" coreId="1346776890" bitwidth="1">
+    <dataOutputObjs>read</dataOutputObjs>
+  </ports>
+  <ports id="5" name="NS" type="PortType" originalName="NS" coreId="0" bitwidth="1" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <ports id="6" name="EW" type="PortType" originalName="EW" coreId="1921905408" bitwidth="1" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <edges id="47" source_obj="//@ports.3" sink_obj="//@blocks.0/@node_objs.0"/>
+  <edges id="49" source_obj="//@ports.2" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="51" source_obj="//@ports.1" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="53" source_obj="//@ports.0" sink_obj="//@blocks.0/@node_objs.3"/>
+  <edges id="54" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.4"/>
+  <edges id="55" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@blocks.0/@node_objs.4"/>
+  <edges id="56" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="57" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="58" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.6"/>
+  <edges id="59" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@blocks.0/@node_objs.6"/>
+  <edges id="60" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@blocks.0/@node_objs.7"/>
+  <edges id="63" source_obj="//@blocks.0/@node_objs.6" sink_obj="//@blocks.0/@node_objs.8"/>
+  <edges id="64" source_obj="//@blocks.0/@node_objs.7" sink_obj="//@blocks.0/@node_objs.8"/>
+  <edges id="65" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.9"/>
+  <edges id="66" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@blocks.0/@node_objs.9"/>
+  <edges id="67" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.0/@node_objs.10"/>
+  <edges id="68" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.10"/>
+  <edges id="69" source_obj="//@blocks.0/@node_objs.9" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="70" source_obj="//@blocks.0/@node_objs.10" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="71" source_obj="//@blocks.0/@node_objs.8" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="72" source_obj="//@blocks.0/@node_objs.11" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="73" source_obj="//@blocks.0/@node_objs.12" sink_obj="//@blocks.0/@node_objs.13"/>
+  <edges id="74" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@blocks.0/@node_objs.13"/>
+  <edges id="77" source_obj="//@blocks.0/@node_objs.14" sink_obj="//@ports.5"/>
+  <edges id="78" source_obj="//@blocks.0/@node_objs.13" sink_obj="//@blocks.0/@node_objs.14"/>
+  <edges id="79" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@blocks.0/@node_objs.15"/>
+  <edges id="81" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@blocks.0/@node_objs.16"/>
+  <edges id="82" source_obj="//@blocks.0/@node_objs.15" sink_obj="//@blocks.0/@node_objs.16"/>
+  <edges id="83" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.0/@node_objs.17"/>
+  <edges id="84" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.17"/>
+  <edges id="85" source_obj="//@blocks.0/@node_objs.9" sink_obj="//@blocks.0/@node_objs.18"/>
+  <edges id="87" source_obj="//@blocks.0/@node_objs.17" sink_obj="//@blocks.0/@node_objs.19"/>
+  <edges id="88" source_obj="//@blocks.0/@node_objs.18" sink_obj="//@blocks.0/@node_objs.19"/>
+  <edges id="89" source_obj="//@blocks.0/@node_objs.16" sink_obj="//@blocks.0/@node_objs.20"/>
+  <edges id="90" source_obj="//@blocks.0/@node_objs.19" sink_obj="//@blocks.0/@node_objs.20"/>
+  <edges id="92" source_obj="//@blocks.0/@node_objs.21" sink_obj="//@ports.4"/>
+  <edges id="93" source_obj="//@blocks.0/@node_objs.20" sink_obj="//@blocks.0/@node_objs.21"/>
+  <blocks id="44" name="traficLights" type="BlockType">
+    <node_objs xsi:type="cdfg:CdfgNode" id="21" name="D_read" lineNumber="69" originalName="D" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." coreId="0" contextFuncName="traficLights" bitwidth="1" opcode="read" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="69" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="traficLights"/>
+      <dataInputObjs>D</dataInputObjs>
+      <dataOutputObjs>and</dataOutputObjs>
+      <dataOutputObjs>or</dataOutputObjs>
+      <dataOutputObjs>xor</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="22" name="U_read" lineNumber="69" originalName="U" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." coreId="1922353952" contextFuncName="traficLights" bitwidth="1" opcode="read" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="69" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="traficLights"/>
+      <dataInputObjs>U</dataInputObjs>
+      <dataOutputObjs>and</dataOutputObjs>
+      <dataOutputObjs>or</dataOutputObjs>
+      <dataOutputObjs>xor</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="23" name="L_read" lineNumber="69" originalName="L" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." coreId="0" contextFuncName="traficLights" bitwidth="1" opcode="read" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="69" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="traficLights"/>
+      <dataInputObjs>L</dataInputObjs>
+      <dataOutputObjs>and</dataOutputObjs>
+      <dataOutputObjs>xor</dataOutputObjs>
+      <dataOutputObjs>or</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="24" name="R_read" lineNumber="69" originalName="R" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." coreId="0" contextFuncName="traficLights" bitwidth="1" opcode="read" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="69" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="traficLights"/>
+      <dataInputObjs>R</dataInputObjs>
+      <dataOutputObjs>and</dataOutputObjs>
+      <dataOutputObjs>xor</dataOutputObjs>
+      <dataOutputObjs>or</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="25" name="and_ln34" lineNumber="34" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." rtlName="and_ln34_fu_74_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="rule1" bitwidth="1" opcode="and" m_display="0" m_delay="0.97" m_topoIndex="5" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="34" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="rule1"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>or</dataOutputObjs>
+      <dataOutputObjs>xor</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="26" name="and_ln51" lineNumber="51" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." rtlName="and_ln51_fu_80_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="rule3" bitwidth="1" opcode="and" m_display="0" m_delay="0.97" m_topoIndex="6" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="51" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="rule3"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>xor</dataOutputObjs>
+      <dataOutputObjs>and</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="27" name="xor_ln43" lineNumber="43" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." rtlName="xor_ln43_fu_86_p2" coreName="LogicGate" implIndex="auto" control="no" opType="xor" coreId="74" contextFuncName="rule2" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="7" m_clusterGroupNumber="1">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="43" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="rule2"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>and</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="28" name="xor_ln43_1" lineNumber="43" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." rtlName="xor_ln43_1_fu_92_p2" coreName="LogicGate" implIndex="auto" control="no" opType="xor" coreId="74" contextFuncName="rule2" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="8" m_clusterGroupNumber="1">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="43" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="rule2"/>
+      <dataInputObjs>and</dataInputObjs>
+      <dataOutputObjs>and</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="29" name="and_ln43" lineNumber="43" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." rtlName="and_ln43_fu_98_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="rule2" bitwidth="1" opcode="and" m_display="0" m_topoIndex="9" m_clusterGroupNumber="1">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="43" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="rule2"/>
+      <dataInputObjs>xor</dataInputObjs>
+      <dataInputObjs>xor</dataInputObjs>
+      <dataOutputObjs>or</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="30" name="or_ln65" lineNumber="65" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." rtlName="or_ln65_fu_104_p2" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="rule5" bitwidth="1" opcode="or" m_display="0" m_delay="0.97" m_topoIndex="10" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="65" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="rule5"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>xor</dataOutputObjs>
+      <dataOutputObjs>xor</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="31" name="or_ln65_1" lineNumber="65" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." rtlName="or_ln65_1_fu_110_p2" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="rule5" bitwidth="1" opcode="or" m_display="0" m_topoIndex="11" m_clusterGroupNumber="1">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="65" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="rule5"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>xor</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="32" name="xor_ln65" lineNumber="65" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." rtlName="xor_ln65_fu_116_p2" coreName="LogicGate" implIndex="auto" control="no" opType="xor" coreId="74" contextFuncName="rule5" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="12" m_clusterGroupNumber="1">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="65" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="rule5"/>
+      <dataInputObjs>or</dataInputObjs>
+      <dataInputObjs>or</dataInputObjs>
+      <dataOutputObjs>or</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="33" name="or_ln43" lineNumber="43" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." rtlName="or_ln43_fu_122_p2" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="rule2" bitwidth="1" opcode="or" m_display="0" m_delay="0.97" m_topoIndex="13" m_clusterGroupNumber="1">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="43" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="rule2"/>
+      <dataInputObjs>and</dataInputObjs>
+      <dataInputObjs>xor</dataInputObjs>
+      <dataOutputObjs>or</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="34" name="or_ln43_1" lineNumber="43" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." rtlName="EW" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="rule2" bitwidth="1" opcode="or" m_display="0" m_delay="0.97" m_topoIndex="14" m_clusterGroupNumber="2">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="43" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="rule2"/>
+      <dataInputObjs>or</dataInputObjs>
+      <dataInputObjs>and</dataInputObjs>
+      <dataOutputObjs>write</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="35" name="EW_write_ln79" lineNumber="79" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." coreId="6002" contextFuncName="traficLights" opcode="write" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="79" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="traficLights"/>
+      <dataInputObjs>or</dataInputObjs>
+      <dataOutputObjs>EW</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="36" name="xor_ln51" lineNumber="51" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." rtlName="xor_ln51_fu_135_p2" coreName="LogicGate" implIndex="auto" control="no" opType="xor" coreId="74" contextFuncName="rule3" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="16" m_clusterGroupNumber="3">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="51" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="rule3"/>
+      <dataInputObjs>and</dataInputObjs>
+      <dataOutputObjs>and</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="37" name="and_ln51_1" lineNumber="51" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." rtlName="and_ln51_1_fu_141_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="rule3" bitwidth="1" opcode="and" m_display="0" m_topoIndex="17" m_clusterGroupNumber="3">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="51" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="rule3"/>
+      <dataInputObjs>and</dataInputObjs>
+      <dataInputObjs>xor</dataInputObjs>
+      <dataOutputObjs>or</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="38" name="xor_ln58" lineNumber="58" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." rtlName="xor_ln58_fu_147_p2" coreName="LogicGate" implIndex="auto" control="no" opType="xor" coreId="74" contextFuncName="rule4" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="18" m_clusterGroupNumber="3">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="58" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="rule4"/>
+      <dataInputObjs>read</dataInputObjs>
+      <dataInputObjs>read</dataInputObjs>
+      <dataOutputObjs>and</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="39" name="xor_ln58_1" lineNumber="58" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." rtlName="xor_ln58_1_fu_153_p2" coreName="LogicGate" implIndex="auto" control="no" opType="xor" coreId="74" contextFuncName="rule4" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="19" m_clusterGroupNumber="3">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="58" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="rule4"/>
+      <dataInputObjs>or</dataInputObjs>
+      <dataOutputObjs>and</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="40" name="and_ln58" lineNumber="58" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." rtlName="and_ln58_fu_159_p2" coreName="LogicGate" implIndex="auto" control="no" opType="and" coreId="74" contextFuncName="rule4" bitwidth="1" opcode="and" m_display="0" m_topoIndex="20" m_clusterGroupNumber="3">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="58" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="rule4"/>
+      <dataInputObjs>xor</dataInputObjs>
+      <dataInputObjs>xor</dataInputObjs>
+      <dataOutputObjs>or</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="41" name="or_ln51" lineNumber="51" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." rtlName="NS" coreName="LogicGate" implIndex="auto" control="no" opType="or" coreId="74" contextFuncName="rule3" bitwidth="1" opcode="or" m_display="0" m_delay="0.97" m_topoIndex="21" m_clusterGroupNumber="3">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="51" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="rule3"/>
+      <dataInputObjs>and</dataInputObjs>
+      <dataInputObjs>and</dataInputObjs>
+      <dataOutputObjs>write</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="42" name="NS_write_ln80" lineNumber="80" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." coreId="1923383600" contextFuncName="traficLights" opcode="write" m_display="0" m_topoIndex="22" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="80" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="traficLights"/>
+      <dataInputObjs>or</dataInputObjs>
+      <dataOutputObjs>NS</dataOutputObjs>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="43" name="_ln84" lineNumber="84" fileName="Trafic_Lights/traficLights.cpp" fileDirectory=".." coreId="4294967295" contextFuncName="traficLights" opcode="ret" m_display="0" m_topoIndex="23" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="Trafic_Lights/traficLights.cpp" linenumber="84" fileDirectory="D:\FPGA_HLS\Trafic_Lights" functionName="traficLights"/>
+    </node_objs>
+    <fileValidLineNumbers fileName="Trafic_Lights/traficLights.cpp">
+      <validLinenumbers>69</validLinenumbers>
+      <validLinenumbers>34</validLinenumbers>
+      <validLinenumbers>51</validLinenumbers>
+      <validLinenumbers>43</validLinenumbers>
+      <validLinenumbers>65</validLinenumbers>
+      <validLinenumbers>79</validLinenumbers>
+      <validLinenumbers>58</validLinenumbers>
+      <validLinenumbers>80</validLinenumbers>
+      <validLinenumbers>84</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <ScheduleInfo time="0"/>
+  <expressionNodes realName="xor_ln58_fu_147">
+    <nodeIds>38</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xor_ln58_1_fu_153">
+    <nodeIds>39</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln65_fu_104">
+    <nodeIds>30</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln58_fu_159">
+    <nodeIds>40</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln51_1_fu_141">
+    <nodeIds>37</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln51_fu_80">
+    <nodeIds>26</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xor_ln51_fu_135">
+    <nodeIds>36</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln43_fu_122">
+    <nodeIds>33</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln34_fu_74">
+    <nodeIds>25</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln43_1_fu_128">
+    <nodeIds>34</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln65_1_fu_110">
+    <nodeIds>31</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xor_ln43_1_fu_92">
+    <nodeIds>28</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xor_ln43_fu_86">
+    <nodeIds>27</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="or_ln51_fu_165">
+    <nodeIds>41</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xor_ln65_fu_116">
+    <nodeIds>32</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln43_fu_98">
+    <nodeIds>29</nodeIds>
+  </expressionNodes>
+  <ioNodes realName="L_read_read_fu_48">
+    <nodeIds>23</nodeIds>
+  </ioNodes>
+  <ioNodes realName="write_ln80_write_fu_67">
+    <nodeIds>42</nodeIds>
+  </ioNodes>
+  <ioNodes realName="write_ln79_write_fu_60">
+    <nodeIds>35</nodeIds>
+  </ioNodes>
+  <ioNodes realName="D_read_read_fu_36">
+    <nodeIds>21</nodeIds>
+  </ioNodes>
+  <ioNodes realName="R_read_read_fu_54">
+    <nodeIds>24</nodeIds>
+  </ioNodes>
+  <ioNodes realName="U_read_read_fu_42">
+    <nodeIds>22</nodeIds>
+  </ioNodes>
+  <ioPorts name="D">
+    <contents name="read">
+      <nodeIds>21</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="EW">
+    <contents name="write">
+      <nodeIds>35</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="L">
+    <contents name="read">
+      <nodeIds>23</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="NS">
+    <contents name="write">
+      <nodeIds>42</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="R">
+    <contents name="read">
+      <nodeIds>24</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="U">
+    <contents name="read">
+      <nodeIds>22</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="7" stage="1" latency="1"/>
+      <operations id="8" stage="1" latency="1"/>
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="11" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="14" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="24" stage="1" latency="1"/>
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="26" stage="1" latency="1"/>
+      <operations id="27" stage="1" latency="1"/>
+      <operations id="28" stage="1" latency="1"/>
+      <operations id="29" stage="1" latency="1"/>
+      <operations id="30" stage="1" latency="1"/>
+      <operations id="31" stage="1" latency="1"/>
+      <operations id="32" stage="1" latency="1"/>
+      <operations id="33" stage="1" latency="1"/>
+      <operations id="34" stage="1" latency="1"/>
+      <operations id="35" stage="1" latency="1"/>
+      <operations id="36" stage="1" latency="1"/>
+      <operations id="37" stage="1" latency="1"/>
+      <operations id="38" stage="1" latency="1"/>
+      <operations id="39" stage="1" latency="1"/>
+      <operations id="40" stage="1" latency="1"/>
+      <operations id="41" stage="1" latency="1"/>
+      <operations id="42" stage="1" latency="1"/>
+      <operations id="43" stage="1" latency="1"/>
+    </states>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="traficLights" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>44</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

@@ -1,0 +1,9 @@
+<pragmas>
+<pragma file="Trafic_Lights/traficLights.cpp" line="71" pragmaType="interface" parentfunction="traficLights" mode="ap_none" port="R" name="" register="0"/>
+<pragma file="Trafic_Lights/traficLights.cpp" line="72" pragmaType="interface" parentfunction="traficLights" mode="ap_none" port="L" name="" register="0"/>
+<pragma file="Trafic_Lights/traficLights.cpp" line="73" pragmaType="interface" parentfunction="traficLights" mode="ap_none" port="U" name="" register="0"/>
+<pragma file="Trafic_Lights/traficLights.cpp" line="74" pragmaType="interface" parentfunction="traficLights" mode="ap_none" port="D" name="" register="0"/>
+<pragma file="Trafic_Lights/traficLights.cpp" line="75" pragmaType="interface" parentfunction="traficLights" mode="ap_none" port="NS" name="" register="0"/>
+<pragma file="Trafic_Lights/traficLights.cpp" line="76" pragmaType="interface" parentfunction="traficLights" mode="ap_none" port="EW" name="" register="0"/>
+<pragma file="Trafic_Lights/traficLights.cpp" line="77" pragmaType="interface" parentfunction="traficLights" mode="ap_ctrl_none" port="return" name=""/>
+</pragmas>
